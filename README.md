@@ -8,9 +8,9 @@
 
 #Navigating the source
 
-High level changes can be done in the (MDP.scala)[https://github.com/KarlHerler/Markov-decision-process/blob/master/src/main/scala/MDP.scala] file.
+High level changes can be done in the [MDP.scala](https://github.com/KarlHerler/Markov-decision-process/blob/master/src/main/scala/MDP.scala) file.
 
 Changes to the way the world is defined can be done in the files:
-(TwoDimensionalWorld.scala)[https://github.com/KarlHerler/Markov-decision-process/blob/master/src/main/scala/TwoDimensionalWorld.scala] and
-(TwoDimensionalTransition.scala)[https://github.com/KarlHerler/Markov-decision-process/blob/master/src/main/scala/TwoDimensionalTransition.scala]. Most changes
+[TwoDimensionalWorld.scala](https://github.com/KarlHerler/Markov-decision-process/blob/master/src/main/scala/TwoDimensionalWorld.scala) and
+[TwoDimensionalTransition.scala](https://github.com/KarlHerler/Markov-decision-process/blob/master/src/main/scala/TwoDimensionalTransition.scala). Most changes
 to those files also prompt a change in the various value iteration files (mostly only changes in the dimensionality).
